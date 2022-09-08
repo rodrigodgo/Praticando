@@ -1,9 +1,97 @@
-* {
-
-}
-
-body {
-
-}
-
 /*#5E2129  #D8CBC7*/
+/* font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200&display=swap");
+
+* {
+    margin: 0px;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color:#D8CBC7 ;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5E2129;
+    flex-direction: row;
+    height: auto;
+    padding: 12px 0px 12px 0px;
+
+}
+
+header p, .social{
+    margin: 0px 50px 0px 50px;
+    font-size: 1.5rem;
+}
+
+header p{
+    color: white;
+}
+
+.social a{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0px 2px 0px 2px;
+}
+
+h1, .logo{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.banner-principal{
+    height: 720px;
+    background-image: url(/taça1.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.banner-principal h1{
+    font-size: 4.5rem;
+}
+
+.banner-principal p{
+    width: 50%;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    font-size: 1.4rem;
+}
+
+.banner-principal .btn-whatsaap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 12px 0px 12px;
+    background-color: green;
+    height: fit-content;
+    border-radius: 5px;
+
+}
+
+.banner-principal .btn-whatsaap i{
+    margin: 0px 12px 0px 0px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.banner-principal .btn-whatsaap p{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+

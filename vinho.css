@@ -48,7 +48,7 @@ h1, .logo{
 
 .banner-principal{
     height: 720px;
-    background-image: url(/taça1.jpg);
+    background-image: url(./taça1.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
     background-attachment: fixed;
